@@ -51,8 +51,7 @@ elif number == '9':
 elif number == '10':
 	os.system("pacman-key --init && pacman-key --populate archlinuxarm && pacman -Sy --noconfirm curl && curl -O https://blackarch.org/strap.sh && chmod +x strap.sh && ./strap.sh")
 elif number == '11':
-	def vnc():
-	    print('''
+        print('''
 ╔══╗──╔╗╔╗
 ║╔╗╠═╦╣║╠╬═╦╦╦╦╦╗
 ║╠╣║║║║╚╣║║║║║╠║╣
